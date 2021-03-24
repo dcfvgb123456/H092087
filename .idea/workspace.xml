@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d55bbd97-b0f6-432e-8dd7-f5d75ce4554b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java/PriorityQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/PriorityQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/PriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PriorityQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/PriorityQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/java/PriorityQueueTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,6 +50,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="java" />
     </key>
@@ -54,17 +60,32 @@
       <recent name="java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PriorityQueueTest">
+  <component name="RunManager" selected="JUnit.PriorityQueueTest.PriorityQueue_RunTest">
     <configuration name="PriorityQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.*" />
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PriorityQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriorityQueueTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="java" />
-      <option name="MAIN_CLASS_NAME" value="java.PriorityQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="java.PriorityQueueTest1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,12 +95,12 @@
       <module name="Lab-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java" />
-      <option name="MAIN_CLASS_NAME" value="java.PriorityQueueTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PriorityQueueTest" />
       <option name="METHOD_NAME" value="PriorityQueue_InitialCapacity_IllegalArgumentExceptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -90,12 +111,12 @@
       <module name="Lab-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java" />
-      <option name="MAIN_CLASS_NAME" value="java.PriorityQueueTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PriorityQueueTest" />
       <option name="METHOD_NAME" value="PriorityQueue_RunTest(int[],int[])" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -104,8 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PriorityQueueTest" />
         <item itemvalue="JUnit.PriorityQueueTest.PriorityQueue_RunTest" />
+        <item itemvalue="JUnit.PriorityQueueTest" />
+        <item itemvalue="JUnit.PriorityQueueTest1" />
         <item itemvalue="JUnit.PriorityQueueTest.PriorityQueue_InitialCapacity_IllegalArgumentExceptionTest" />
       </list>
     </recent_temporary>
