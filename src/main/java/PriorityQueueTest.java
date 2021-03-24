@@ -1,4 +1,3 @@
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -7,7 +6,8 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.PriorityQueue;
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class PriorityQueueTest {
     static Stream<Arguments> stringIntAndListProvider() {
@@ -23,7 +23,7 @@ class PriorityQueueTest {
     @ParameterizedTest(name = "#{index} - Test with Arguments={0}, {1}")
     @MethodSource("stringIntAndListProvider")
     public void PriorityQueue_RunTest(int[] random_array, int[] correct_array) {
-        java.util.PriorityQueue<Integer> test_PQ = new java.util.PriorityQueue<>();
+        PriorityQueue<Integer> test_PQ = new PriorityQueue<>();
 
         int[] result = new int[random_array.length];
 
@@ -41,13 +41,13 @@ class PriorityQueueTest {
     @Test
     public void PriorityQueue_InitialCapacity_IllegalArgumentExceptionTest() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> {
-            java.util.PriorityQueue<Integer> test_PQ = new java.util.PriorityQueue<>(Integer.MIN_VALUE);
+            PriorityQueue<Integer> test_PQ = new PriorityQueue<>(Integer.MIN_VALUE);
         });
     }
 
     @Test
     public void PriorityQueue_Add_NullPointerException_Test() {
-        java.util.PriorityQueue<Integer> test_PQ = new java.util.PriorityQueue<>();
+        PriorityQueue<Integer> test_PQ = new PriorityQueue<>();
 
         Exception e = assertThrows(NullPointerException.class, () -> {
             test_PQ.add(null);
@@ -56,7 +56,7 @@ class PriorityQueueTest {
 
     @Test
     public void PriorityQueue_Offer_ClassCastException_Test() {
-        java.util.PriorityQueue<Object> test_PQ = new PriorityQueue<>();
+        PriorityQueue<Object> test_PQ = new PriorityQueue<>();
         test_PQ.offer(1);
 
         Exception e = assertThrows(ClassCastException.class, () -> {
