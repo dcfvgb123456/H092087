@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d55bbd97-b0f6-432e-8dd7-f5d75ce4554b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/java/PriorityQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java/PriorityQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PriorityQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PriorityQueueTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -52,6 +48,9 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="java" />
     </key>
   </component>
@@ -87,9 +86,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PriorityQueueTest.PriorityQueue_RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.PriorityQueueTest" />
+      <option name="METHOD_NAME" value="PriorityQueue_RunTest(int[],int[])" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PriorityQueueTest" />
+        <item itemvalue="JUnit.PriorityQueueTest.PriorityQueue_RunTest" />
         <item itemvalue="JUnit.PriorityQueueTest.PriorityQueue_InitialCapacity_IllegalArgumentExceptionTest" />
       </list>
     </recent_temporary>
