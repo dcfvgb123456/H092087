@@ -7,7 +7,7 @@ NYCU Software Testing Lab3
 ![](screenshots/pass.png)
 
 
-![](screenshots/fail_status.png)
+![](screenshots/failed_status.png)
 ![](screenshots/fail.png)
 
 
