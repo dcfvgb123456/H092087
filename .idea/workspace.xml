@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d55bbd97-b0f6-432e-8dd7-f5d75ce4554b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PriorityQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PriorityQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PriorityQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PriorityQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PriorityQueue.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
