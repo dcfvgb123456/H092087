@@ -35,7 +35,6 @@
 
     <build>
         <plugins>
-
             <!-- Need at least 2.22.0 to support JUnit 5 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
