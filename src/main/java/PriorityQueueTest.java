@@ -19,21 +19,18 @@ class PriorityQueueTest {
         );
     }
 
-    @ParameterizedTest(name="#{index} - Test with Arguments={0}, {1}")
+    @ParameterizedTest(name = "#{index} - Test with Arguments={0}, {1}")
     @MethodSource("stringIntAndListProvider")
     public void PriorityQueue_RunTest(int[] random_array, int[] correct_array) {
-        PriorityQueue<Integer> test_PQ = new PriorityQueue<Integer>();
+        PriorityQueue<Integer> test_PQ = new PriorityQueue<>();
 
-        int index = 0;
-        Integer int_instance;
         int[] result = new int[random_array.length];
 
-        for (int i:random_array) {
+        for (int i : random_array) {
             test_PQ.add(i);
         }
 
-        for (int i = 0; i < random_array.length; ++i)
-        {
+        for (int i = 0; i < random_array.length; ++i) {
             result[i] = test_PQ.poll();
         }
 
@@ -41,17 +38,15 @@ class PriorityQueueTest {
     }
 
     @Test
-    public void PriorityQueue_InitialCapacity_IllegalArgumentExceptionTest()
-    {
+    public void PriorityQueue_InitialCapacity_IllegalArgumentExceptionTest() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> {
-            PriorityQueue<Integer> test_PQ = new PriorityQueue<Integer>(Integer.MIN_VALUE);
+            PriorityQueue<Integer> test_PQ = new PriorityQueue<>(Integer.MIN_VALUE);
         });
     }
 
     @Test
-    public void PriorityQueue_Add_NullPointerException_Test()
-    {
-        PriorityQueue<Integer> test_PQ = new PriorityQueue<Integer>();
+    public void PriorityQueue_Add_NullPointerException_Test() {
+        PriorityQueue<Integer> test_PQ = new PriorityQueue<>();
 
         Exception e = assertThrows(NullPointerException.class, () -> {
             test_PQ.add(null);
@@ -59,9 +54,8 @@ class PriorityQueueTest {
     }
 
     @Test
-    public void PriorityQueue_Offer_ClassCastException_Test()
-    {
-        PriorityQueue<Object> test_PQ = new PriorityQueue<Object>();
+    public void PriorityQueue_Offer_ClassCastException_Test() {
+        PriorityQueue<Object> test_PQ = new PriorityQueue<>();
         test_PQ.offer(1);
 
         Exception e = assertThrows(ClassCastException.class, () -> {
